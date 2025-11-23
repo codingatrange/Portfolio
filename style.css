@@ -1,0 +1,143 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f6f6;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    color: #00a2ff;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    align-items: center;
+    background: white;
+}
+
+.hero-img img {
+    width: 350px;
+    border-radius: 14px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.highlight {
+    color: #008cff;
+}
+
+.btn {
+    background: #0059ff;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #003cbf;
+}
+
+
+/* SECTIONS */
+.section {
+    padding: 60px;
+}
+
+.section-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #008cff;
+}
+
+/* SKILLS GRID */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.skill-card {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* TIMELINE LISTS */
+.timeline li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+.resume-btn {
+    background: #0059ff;
+    padding: 12px 25px;
+    margin-top: 15px;
+    display: inline-block;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    background: #008cff;
+}
